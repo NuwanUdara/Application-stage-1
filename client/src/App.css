@@ -1,0 +1,49 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.info{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+ .info input{
+  width: 300px;
+  height: 30px;
+  font-size: 20px;
+  padding-left: 10px;
+  margin: 5px;
+ }
+
+ .info button{
+  width:200px ;
+  height: 30px;
+  margin-top: 10px;
+ }
+
+ .info button:hover{
+   cursor: pointer;
+   color: blue;
+ }
+
+ .quo{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+ }
+
+ .getq{
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  align-items: center;
+  border: 1px solid black;
+  margin: 2px;
+  color-scheme: dark;
+  color: rebeccapurple;
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+ }
